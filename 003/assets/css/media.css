@@ -1,0 +1,56 @@
+@media screen and (max-width: 800px) {
+    main > .info > h1 {
+        font-size: 60px;
+    }
+
+    header > nav > ul > li > a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    main > .info > h1 {
+        font-size: 40px;
+    }
+
+}
+
+
+@media screen and (max-width: 430px) {
+    header > img {
+        width: 90px;
+    }
+    section > article > h2 {
+        font-size: 14px;
+    }    
+    header > nav > ul > li > a {
+        font-size: 10px;
+    }
+    section > article {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    header > img {
+        width: 80px;
+    }
+    section > article {
+        padding: 10px;
+    }
+    header > nav > ul {
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    header > img {
+        width: 70px;
+    }
+    section > article {
+        padding: 5px;
+    }
+    header > nav > ul {
+        gap: 10px;
+    }
+}
