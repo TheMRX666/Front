@@ -8,6 +8,27 @@
     }
 }
 
+
+@media screen and (max-width: 540px) {
+    header > img {
+        width: 90px;
+    }
+    section > article > h2 {
+        font-size: 12px;
+        font-weight: 400;
+    }    
+
+    section > article > div {
+        font-size: 12px;
+    }
+
+
+    section > article {
+        padding: 15px;
+    } 
+
+}
+
 @media screen and (max-width: 460px) {
     main > .info > h1 {
         font-size: 40px;
@@ -15,16 +36,12 @@
 
 }
 
-
 @media screen and (max-width: 430px) {
-    header > img {
-        width: 90px;
-    }
     section > article > h2 {
-        font-size: 14px;
+        font-size: 10px;
     }    
     header > nav > ul > li > a {
-        font-size: 10px;
+        font-size: 9px;
     }
     section > article {
         padding: 15px;
